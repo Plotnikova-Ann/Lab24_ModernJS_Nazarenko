@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+font-family: Verdana, sans-serif;
+background: #667eea;
+min-height: 100vh;
+padding: 20px;
+}
+container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+h1{
+    color: #333;
+    margin-bottom: 10px;
+}
+h2{
+    color: #667eea;
+    margin-bottom: 30px;
+    font-weight: 400;
+}

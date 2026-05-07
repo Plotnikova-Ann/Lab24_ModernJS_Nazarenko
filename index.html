@@ -8,10 +8,26 @@
 </head>
 <body>
     <div class="container">
-        <h1>Lab24-26 - Modern_JavaScript</h1>
-        <h2>Современный JavaScript</h2>
-    </div>
-    
-    <script type="module" src="js/main.js"></script>
+        <h1>Lab23-25 - Modern_JavaScript</h1>
+       <h2>Менеджер задач</h2>
+
+<div class="task-form">
+    <h3>Добавить новую задачу</h3>
+    <input type="text" id="taskInput" placeholder="Введите задачу ...">
+    <button id="addTask">Добавить</button>
+</div>
+
+<div class="filters">
+    <button class="filter-btn active" data-filter="all">Все</button>
+    <button class="filter-btn" data-filter="active">Активные</button>
+    <button class="filter-btn" data-filter="completed">Завершённые</button>
+</div>
+
+<div id="taskList" class="task-list"></div>
+
+<div class="stats">
+    <p>Всего задач: <span id="totalTasks">0</span></p>
+    <p>Выполнено: <span id="completedTasks">0</span></p>
+</div>
 </body>
-</html>
+<script type="module" src="js/api.js"></script>
